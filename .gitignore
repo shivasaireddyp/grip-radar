@@ -11,9 +11,6 @@ __pycache__/
 .ipynb_checkpoints
 
 #Pickles
-label_encoder_gender.pkl
-grip_model.h5
-scaler.pkl
 Churn_Modelling.csv
 
 # Streamlit / VSCode
