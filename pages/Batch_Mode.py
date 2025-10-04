@@ -5,7 +5,7 @@ import pandas as pd
 
 @st.cache_resource
 def load_resources():
-    model = load_model('churn_model.h5')
+    model = load_model('grip_model.h5')
     with open('label_encoder_gender.pkl', 'rb') as f:
         label_encoder_gender = pickle.load(f)
     with open('scaler.pkl', 'rb') as f:
